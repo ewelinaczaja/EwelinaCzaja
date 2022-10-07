@@ -1,0 +1,166 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font: 1.5rem 'Fira Sans' ;
+    line-height: 1.8;
+    
+}
+header,nav, main, aside, footer{
+    padding:30px;
+    
+}
+div{
+    padding-bottom: 30px;
+}
+main{
+    text-align: center;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+    line-height: 1;
+
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+    
+}
+.line {
+    display:inline;
+}
+
+#bottone, button {
+    padding: 20px;
+    color: white;
+    font-size: 1.9rem ;
+    background-color: #6cc1e2;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    text-decoration: none;
+    }
+i{
+    color:#e42424 ;
+}
+
+/* NAV */
+
+nav {
+    padding-bottom:80px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 10;
+    
+}
+nav img{
+        float: left;
+        
+    }
+nav i, ul{
+        float: right;
+        
+    }
+/* HEADER */
+header{
+    color: white;
+    background-image: url("../images/banner.jpg");
+}
+  
+#menu{
+    height:0;
+    overflow:hidden;
+    transition:all 0.3s
+}
+input[type="checkbox"]:checked + #menu{
+    height:300px;
+}
+#toggle{
+    display:none;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+/* MAIN */
+
+#scrivici{
+    background-color:#0c0633 ;
+    color: white;
+    padding:80px 20px 110px 20px ;
+}
+#bottone{
+    position: relative;
+    top:30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(238, 238, 238);
+}
+footer h3{
+    font-size:2rem;
+}
+input{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
+footer button{
+    width: 100%;
+}
+
+
+/* TABLE */
+table{
+    margin-top: 50px;
+    text-align: left;
+}
+.iva {
+    display: none;
+}
+
+
+.color {
+    background-color: #d2dce7;
+}
+
+main input{
+    margin: 10px;
+}
+fieldset button{
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px){
+.media {
+        display: flex;
+        flex-basis: auto;
+}
+small {
+    text-align: center;
+}
+.gridd {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto ;
+}
+.box4 {
+    grid-area: 1/1/4/2;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+table{
+   text-align: center;
+}
+}

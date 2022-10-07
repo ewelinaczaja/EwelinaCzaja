@@ -1,0 +1,90 @@
+/* IMPOSTAZIONI GENERALI */{}
+body {
+    font: 1.5rem 'Fira Sans' ;
+    line-height: 1.2;
+}
+div {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+h1, h2, h3, h4 {
+    padding-bottom: 40px;
+
+}
+h1{
+    font-size: 4rem;
+}
+h2, h3{
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 2.5rem;
+    
+}
+
+
+a, button {
+padding: 20px;
+color: white;
+font-size: 1.9rem ;
+background-color: #6cc1e2;
+background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+text-decoration: none;
+}
+
+
+
+nav img{
+    float: left;
+    
+}
+
+/* HEADER */
+  
+header div {
+    padding: 2em 1.5em;
+    background-image: url("C:\Users\eweli\OneDrive\Desktop\epicodeCzaja\m1\w2\progetto\start\assets\images\banner.jpg");
+    background-color: black;
+    color: white;
+}
+#menu{
+    height:0;
+    overflow:hidden;
+    transition:all 0.3s
+}
+input[type="checkbox"]:checked + #menu{
+    height:300px;
+}
+#toggle{
+    display:none;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+/* MAIN */
+main{
+    text-align: center;
+    padding:15px;
+    padding-bottom: 45px;
+}
+#scrivici{
+    background-color:#0c0633 ;
+    color: white;
+}
+
+/* ASIDE */
+aside, footer{
+    background-color: rgb(238, 238, 238);
+    
+}
+aside h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* FOOTER */
+
+/* RESPONSIVE */

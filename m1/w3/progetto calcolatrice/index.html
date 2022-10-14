@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <article id="content">
+        <div id="img-container"> 
+            <img id="donkey-img" src="assets/img/donkey.png" />
+            <button id="hide-image-btn" onclick="hideImage()">Chiudi</button>
+        </div>
+        <div id="box">
+            <h1 id="title">La mia calcolatrice in JS</h1>
+            <input type="text" id="scrivi" readonly="readonly">
+            <button type="button" id="=" value="=" onclick="risultato()" class="pulsante">=</button>
+        </div>
+            <div>
+                <button type="button" id="7" value="7" onclick="tasto(this.id)" class="pulsante">7</button>
+                <button type="button" id="8" value="8" onclick="tasto(this.id)" class="pulsante">8</button>
+                <button type="button" id="9" value="9" onclick="tasto(this.id)" class="pulsante">9</button>
+                <button type="button" id="/" value="/" onclick="tasto(this.id)" class="pulsante">/</button>
+            </div>
+
+            <div>
+                <button type="button" id="4" value="4" onclick="tasto(this.id)" class="pulsante">4</button>
+                <button type="button" id="5" value="5" onclick="tasto(this.id)" class="pulsante">5</button>
+                <button type="button" id="6" value="6" onclick="tasto(this.id)" class="pulsante">6</button>
+                <button type="button" id="*" value="*" onclick="tasto(this.id)" class="pulsante">x</button>
+            </div>
+
+            <div>
+                <button type="button" id="1" value="1" onclick="tasto(this.id)" class="pulsante">1</button>
+                <button type="button" id="2" value="2" onclick="tasto(this.id)" class="pulsante">2</button>
+                <button type="button" id="3" value="3" onclick="tasto(this.id)" class="pulsante">3</button>
+                <button type="button" id="-" value="-" onclick="tasto(this.id)" class="pulsante">-</button>
+            </div>
+
+            <div>
+                <button type="button" id="c" value="c" onclick="cancel()" class="pulsante">C</button>
+                <button type="button" id="0" value="0" onclick="tasto(this.id)" class="pulsante">0</button>
+                <button type="button" id="." value="." onclick="tasto(this.id)" class="pulsante">.</button>
+                <button type="button" id="+" value="+" onclick="tasto(this.id)" class="pulsante">+</button>
+            </div>
+    </article>
+    <section>
+        <button id="first">ON</button>
+    </section>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

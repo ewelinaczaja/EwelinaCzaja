@@ -1,0 +1,37 @@
+label{
+    background-color:cadetblue;
+    padding: 8px;
+} 
+
+label:hover{
+    background-color:blue;
+    padding: 8px;
+} 
+
+
+#menu {
+    margin-top: 7px;
+    background-color: violet;
+    display:flex;
+    flex-direction: column;
+    width: 100px;
+    list-style-type: none;
+    padding-left: 8px;
+}
+.newMenu {
+    visibility: hidden;
+}
+
+  
+  .stileLista {
+    text-decoration: line-through;
+    color: lightgray;
+  }
+
+  li:hover {
+    color: red;
+  }
+
+  
+
+

@@ -1,0 +1,45 @@
+.header {
+    background: url("../img/pexels-aleksandar-pasaric-325185.jpg") no-repeat 0 -200px;
+    height: 600px;
+    padding: 30px 0;
+}
+
+$colore: rgba(116,49,249,255);
+
+@mixin navfoot {
+    background-color: $colore;
+    color: white;
+}
+
+nav{
+    @include navfoot;
+}
+
+.btn {
+    @include navfoot;
+    border: transparent;
+}
+
+footer {
+    @include navfoot;
+    
+}
+
+@mixin rosso {
+color: red;
+}
+
+.nav-link {
+    @include rosso;
+}
+span.icon {
+    @include rosso;
+}
+
+section{
+    background-color: rgba(245,245,245,255);
+}
+
+img{
+    width: 100px;
+}

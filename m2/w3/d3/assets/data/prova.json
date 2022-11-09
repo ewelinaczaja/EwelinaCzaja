@@ -1,0 +1,88 @@
+{
+    "studenti": [
+        {
+            "id": 1,
+            "nome": "Luca",
+            "cognome": "Rossi",
+            "corso": 322
+        },
+        {
+            "id": 2,
+            "nome": "Marco",
+            "cognome": "Bianchi",
+            "corso": 322
+        },
+        {
+            "id": 3,
+            "nome": "Filippo",
+            "cognome": "Neri",
+            "corso": 322
+        },
+        {
+            "id": 4,
+            "nome": "Dario",
+            "cognome": "Verdi",
+            "corso": 322
+        },
+        {
+            "id": 5,
+            "nome": "Matteo",
+            "cognome": "Gialli",
+            "corso": 322
+        },
+        {
+            "id": 6,
+            "nome": "Claudio",
+            "cognome": "Reni",
+            "corso": 322
+        }
+    ],
+    "libri": [
+        {
+            "id": 1,
+            "titolo":"Il Paradiso perduto",
+            "autore":"John Milton",
+            "anno": 1667
+        },
+         {
+            "id": 2,
+            "titolo":"L'alchimista",
+            "autore":"Paolo Coelho",
+            "anno": 1988
+        },
+        {
+            "id": 3,
+            "titolo":"Fahrenheit 451",
+            "autore":"Ray Bradbury",
+            "anno": 1953
+        },
+        {
+            "id": 4,
+            "titolo":"Tutto chiede salvezza",
+            "autore":"Daniele Mencarelli",
+            "anno": 2020
+        }
+    ],
+
+    "film": [
+        {
+            "id": 1,
+            "titolo":"Arancia meccanica",
+            "regista":"Stanley Kubrick",
+            "anno": 1971
+        },
+         {
+            "id": 2,
+            "titolo":"Ciclone",
+            "regista":"Leonardo Pieraccioni",
+            "anno": 1996
+        },
+        {
+            "id": 3,
+            "titolo":"Miglio Verde",
+            "regista":"Frank Darabont",
+            "anno": 2000
+        }
+       
+    ]
+}

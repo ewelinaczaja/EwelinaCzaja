@@ -13,7 +13,7 @@ function printData() {
     }).then((data) => {
         elenco = data;
         elenco.map(function(element) {
-dati.innerHTML += `<tr><td class="px-3">${element.name}</td><td class="px-3">${element.username}</td><td class="px-3">${element.email}</td></tr>`;
+dati.innerHTML += `<tr><td class="px-3 border border-dark">${element.name}</td><td class="px-3 border border-dark">${element.username}</td><td class="px-3 border border-dark">${element.email}</td></tr>`;
 });
     });
 }

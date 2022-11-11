@@ -1,0 +1,24 @@
+{
+  "elenco": [
+    {
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "id": 45
+    },
+    {
+      "nome": "Filippo",
+      "cognome": "Bianchi",
+      "id": 47
+    },
+    {
+      "nome": "Francesca",
+      "cognome": "Neri",
+      "id": 48
+    },
+    {
+      "nome": "Ewelina",
+      "cognome": "Czaja",
+      "id": 50
+    }
+  ]
+}

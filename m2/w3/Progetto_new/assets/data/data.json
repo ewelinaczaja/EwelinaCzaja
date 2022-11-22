@@ -1,11 +1,6 @@
 {
   "elenco": [
     {
-      "nome": "Mario",
-      "cognome": "Rossi",
-      "id": 45
-    },
-    {
       "nome": "Filippo",
       "cognome": "Bianchi",
       "id": 47
@@ -19,6 +14,16 @@
       "nome": "Ewelina",
       "cognome": "Czaja",
       "id": 50
+    },
+    {
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "id": 51
+    },
+    {
+      "nome": "Maria",
+      "cognome": "Giulia",
+      "id": 52
     }
   ]
 }
